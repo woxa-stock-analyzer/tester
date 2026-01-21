@@ -1,0 +1,27 @@
+# Cypress videos & screenshots (generated during test runs)
+cypress/videos/
+cypress/screenshots/
+
+# Cypress downloads (if using cy.download or file upload tests)
+cypress/downloads/
+
+# Cypress environment & config overrides
+cypress.env.json
+cypress.config.local.js
+cypress.config.ts.bak
+
+# Cypress cache
+.cypress/
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db

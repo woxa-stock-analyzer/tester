@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES6", "DOM"],
+    "types": ["cypress"],
+    "strict": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@pages/*": ["cypress/e2e/pages/*"],
+      "@data/*": ["cypress/data/*"],
+    },
+  },
+  "include": [
+    "cypress/**/*.ts",
+    "cypress.config.ts"
+  ]
+}
