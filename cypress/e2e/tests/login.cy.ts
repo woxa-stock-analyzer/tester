@@ -1,4 +1,4 @@
-import { LoginPage } from "@pages/login-page"
+import { LoginPage } from "@pages/login-page";
 
 let users: any;
 
@@ -8,14 +8,12 @@ beforeEach(() => {
   });
 });
 
-
 describe('User login success', ()=> {
     it("[LOG-001] - login success with username and password", () => {
         const loginPage = new LoginPage();
         const username = users.userLogin001.username;
         const password = users.userLogin001.password;
-        
-        
+
         // Go to login page
         loginPage.goToLoginPage();
 
