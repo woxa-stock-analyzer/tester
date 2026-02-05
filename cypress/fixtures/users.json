@@ -1,6 +1,11 @@
 {
-    "userLogin001": {
-        "username": "qatest",
-        "password": "123456"
+    "userLoginValid": {
+        "username": "aaa123@gmail.com",
+        "password": "1234567a"
+    },
+
+    "userLoginInvalid": {
+        "username": "failed@gmail.com",
+        "password": "123456789"
     }
 }

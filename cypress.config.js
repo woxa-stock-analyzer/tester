@@ -6,7 +6,9 @@ require('dotenv').config({
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: process.env.APIENDPOINTS,
+    viewportHeight: 1080,
+    viewportWidth: 1440,
+    baseUrl: "https://stockanalyzer.adenxus.com",
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
