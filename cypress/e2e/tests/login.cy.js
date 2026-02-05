@@ -1,6 +1,6 @@
-import { LoginPage } from "@pages/login-page"
+import { LoginPage } from "../pages/Login_Page";
 
-let users: any;
+let users;
 
 beforeEach(() => {
   cy.fixture("users.json").then((data) => {

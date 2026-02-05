@@ -24,15 +24,15 @@ export class LoginPage {
     return cy.get('[data-testid="page-title"]').should('contain.text', `Welcome To ODDS`);
   }
 
-  enterUsername(username: string) {
-    this.userNameInput().click().type(username);
-  }
+  // enterUsername(username: string) {
+  //   this.userNameInput().click().type(username);
+  // }
 
-  enterPassword(password: string) {
-    this.passwordInput().click().type(password);
-  }
+  // enterPassword(password: string) {
+  //   this.passwordInput().click().type(password);
+  // }
 
-  clickButtonLogin() {
-    this.loginButton().click();
-  }
+  // clickButtonLogin() {
+  //   this.loginButton().click();
+  // }
 }
