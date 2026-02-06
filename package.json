@@ -11,8 +11,15 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "cypress": "^15.8.1",
-    "dotenv": "^17.2.3",
+    "cypress": "^15.9.0",
     "typescript": "^5.9.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woxa-stock-analyzer/tester.git"
+  },
+  "bugs": {
+    "url": "https://github.com/woxa-stock-analyzer/tester/issues"
+  },
+  "homepage": "https://github.com/woxa-stock-analyzer/tester#readme"
 }
