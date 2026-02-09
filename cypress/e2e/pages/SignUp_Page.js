@@ -4,7 +4,7 @@ export class SignUpPage {
     cy.visit("http://157.85.98.99:3030/markets");
   }
   ClickSignInButton() {
-    return   cy.get('[data-testid="nav-user-mobile"]')
+    return   cy.get('[data-testid="nav-signin-desktop"]')
     .should('be.visible')
     .click();
   }
