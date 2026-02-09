@@ -1,4 +1,4 @@
-const { MarketPage } = require("../pages/market-page");
+import { MarketPage } from "../../pages/marketPage";
 
 console.log('baseUrl from config:', Cypress.config('baseUrl'))
 
