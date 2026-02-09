@@ -1,7 +1,7 @@
 import { SignInPage } from "../../../pages/signinPage";
 
 beforeEach(function () {
-  cy.fixture("users.json").then((data) => {
+  cy.fixture("signIn.json").then((data) => {
     this.users = data;
   });
 });

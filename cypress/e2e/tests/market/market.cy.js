@@ -1,4 +1,4 @@
-import { MarketPage } from "../../pages/marketPage";
+import { MarketPage } from "../../../pages/marketPage";
 
 console.log('baseUrl from config:', Cypress.config('baseUrl'))
 
